@@ -36,7 +36,7 @@
     "ext-iconv": "*",
     "ext-json": "*",
     "ext-zip": "*",
-    "nette/finder": "^2.5",
+    "nette/finder": "^3.0",
     "nette/utils": "^4.0",
     "softcreatr/jsonpath": "^0.7.3"
   },
