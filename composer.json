@@ -37,7 +37,7 @@
     "ext-json": "*",
     "ext-zip": "*",
     "nette/finder": "^2.5",
-    "nette/utils": "^3.1",
+    "nette/utils": "^4.0",
     "softcreatr/jsonpath": "^0.7.3"
   },
   "require-dev": {
