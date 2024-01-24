@@ -189,7 +189,7 @@ class Arrays extends NetteArrays
 	 * @param iterable<mixed> $collection
 	 * @return int|string|null
 	 */
-	public static function firstKey(iterable $collection)
+	public static function firstKey(array $collection, ?callable $predicate = null): string|int|null
 	{
 		$key = null;
 		foreach (self::iterableKeys($collection) as $key) {
@@ -401,7 +401,7 @@ class Arrays extends NetteArrays
 	 * @param iterable<mixed> $collection
 	 * @return int|string|null
 	 */
-	public static function lastKey(iterable $collection)
+	public static function lastKey(array $collection, ?callable $predicate = null): string|int|null
 	{
 		$array = [];
 		if (is_array($collection)) {
